@@ -71,6 +71,7 @@ from cvxpy.atoms.elementwise.exp import exp
 from cvxpy.atoms.elementwise.huber import huber
 from cvxpy.atoms.elementwise.inv_pos import inv_pos
 from cvxpy.atoms.elementwise.kl_div import kl_div
+from cvxpy.atoms.elementwise.xlogxy import xlogxy
 from cvxpy.atoms.elementwise.log import log
 from cvxpy.atoms.elementwise.log1p import log1p
 from cvxpy.atoms.elementwise.logistic import logistic

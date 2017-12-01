@@ -24,6 +24,7 @@ from cvxpy.reductions.dcp2cone.atom_canonicalizers.entr_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.geo_mean_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.huber_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.kl_div_canon import *
+from cvxpy.reductions.dcp2cone.atom_canonicalizers.xlogxy_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.lambda_max_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.lambda_sum_largest_canon import *
 from cvxpy.reductions.dcp2cone.atom_canonicalizers.log_canon import *
@@ -66,6 +67,7 @@ CANON_METHODS = {
     exp : exp_canon,
     huber : huber_canon,
     kl_div : kl_div_canon,
+    xlogxy : xlogxy_canon,
     log : log_canon,
     log1p : log1p_canon,
     logistic : logistic_canon,
